@@ -2500,11 +2500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ASP.NET6\\AuntenticacaoEAutorizacao\\Blog\\Blog.csproj",
+      "projectUniqueName": "C:\\API\\Blog\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "C:\\ASP.NET6\\AuntenticacaoEAutorizacao\\Blog\\Blog.csproj",
+      "projectPath": "C:\\API\\Blog\\Blog.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\ASP.NET6\\AuntenticacaoEAutorizacao\\Blog\\obj\\",
+      "outputPath": "C:\\API\\Blog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
