@@ -2,8 +2,10 @@
 using Blog.Extensions;
 using Blog.Models;
 using Blog.ViewModel;
+using Blog.ViewModel.Categories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace Blog.Controllers
 {
@@ -14,13 +16,18 @@ namespace Blog.Controllers
 
         //Read
         [HttpGet("v1/categories")] //v1 = verssão 1 dp meu app
-        public async Task<IActionResult> GetAsync([FromServices] BlogDataContext context)
+        public async Task<IActionResult> GetAsync([FromServices] BlogDataContext context, [FromServices] IMemoryCache cache)
         {
             User.IsInRole("admin");
+            
             try
             {
-                var categories = await context.Categories.ToListAsync();
-                //Vai retornar os dados do usuario da minha classe ResultViewModel
+                var categories = cache.GetOrCreate("CategoryCache", x =>
+                {
+                    x.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(30);
+                    return GetCategories(context);
+                });
+             
                 return Ok(new ResultViewModel<List<Category>>(categories));
             }
             catch 
@@ -30,7 +37,10 @@ namespace Blog.Controllers
             }
            
         }
-
+        private List<Category> GetCategories(BlogDataContext context)
+        {
+            return context.Categories.ToList();
+        }
         //Read
         [HttpGet("v1/categories/{id:int}")]
         public async Task<IActionResult> GetByIdAsync( [FromRoute] int id, [FromServices] BlogDataContext context)
@@ -128,11 +138,11 @@ namespace Blog.Controllers
             }
             catch (DbUpdateException ex)
             {
-                return StatusCode(415, new ResultViewModel<Category>("SWE12-X Falaha ao escluir um usuario, verifique o Id inserido"));
+                return StatusCode(415, new ResultViewModel<Category>("SWE12-X Falaha ao escluir a categoria, verifique o Id inserido"));
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new ResultViewModel<Category>("D45T-F Falaha ao escluir um usuario "));
+                return StatusCode(500, new ResultViewModel<Category>("D45T-F Falaha ao excluir um usuario "));
             }
         }
 

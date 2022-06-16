@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\API\\Blog\\Blog.csproj": {}
+    "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\API\\Blog\\Blog.csproj": {
+    "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\API\\Blog\\Blog.csproj",
+        "projectUniqueName": "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\API\\Blog\\Blog.csproj",
+        "projectPath": "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\API\\Blog\\obj\\",
+        "outputPath": "C:\\ASP.NET6\\Performace\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "SecureIdentity": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
             }
           },
           "imports": [

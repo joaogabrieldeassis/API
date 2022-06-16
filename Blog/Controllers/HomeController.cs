@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Blog.Attribut;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Blog.Controllers
 {
@@ -7,9 +8,16 @@ namespace Blog.Controllers
     public class HomeController : ControllerBase
     {
         [HttpGet("")]
-        public IActionResult Get()
+       
+        public IActionResult Get([FromServices] IConfiguration configuration)
         {
-            return Ok();
+            var env = configuration.GetValue<string>("Env");
+            return Ok(new
+            {
+                enviorment = env
+            }
+            );
+
         }
     }
 }

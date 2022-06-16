@@ -38,16 +38,11 @@ namespace Blog.DataContext.Mapings
 
             //Bio
             builder.Property(x => x.Bio)
-            .IsRequired()
-            .HasColumnName("Bio")
-            .HasColumnType("text");
+            .IsRequired(false);
 
             //Image
             builder.Property(x => x.Image)
-            .IsRequired()
-            .HasColumnName("Image")
-            .HasColumnType("VARCHAR")
-            .HasMaxLength(2000);
+           .IsRequired(false);
 
             //Slug
             builder.Property(x => x.Slug)

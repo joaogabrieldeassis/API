@@ -119,7 +119,7 @@ namespace Blog.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Role", (string)null);
+                    b.ToTable("Role");
                 });
 
             modelBuilder.Entity("Blog.Models.Tag", b =>
@@ -140,7 +140,7 @@ namespace Blog.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tag", (string)null);
+                    b.ToTable("Tag");
                 });
 
             modelBuilder.Entity("Blog.Models.User", b =>
@@ -152,9 +152,7 @@ namespace Blog.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Bio")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("Bio");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -163,10 +161,7 @@ namespace Blog.Migrations
                         .HasColumnName("Email");
 
                     b.Property<string>("Image")
-                        .IsRequired()
-                        .HasMaxLength(2000)
-                        .HasColumnType("VARCHAR(2000)")
-                        .HasColumnName("Image");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -206,7 +201,7 @@ namespace Blog.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("PostTag", (string)null);
+                    b.ToTable("PostTag");
                 });
 
             modelBuilder.Entity("UserRole", b =>
@@ -221,7 +216,7 @@ namespace Blog.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserRole", (string)null);
+                    b.ToTable("UserRole");
                 });
 
             modelBuilder.Entity("Blog.Models.Post", b =>
