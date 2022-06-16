@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj": {}
+    "C:\\API\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj": {
+    "C:\\API\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj",
+        "projectUniqueName": "C:\\API\\Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\ASP.NET6\\Performace\\Blog\\Blog.csproj",
+        "projectPath": "C:\\API\\Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP.NET6\\Performace\\Blog\\obj\\",
+        "outputPath": "C:\\API\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
