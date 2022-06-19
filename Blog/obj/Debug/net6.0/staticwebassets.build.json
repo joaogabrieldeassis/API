@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "slBFUMuG1hbc7ZxNcSSF3VkBXQxKRYFL8UsoiWQJYdw=",
+  "Hash": "q9qmHZOU14naTfmB/nih6JPqDmmrHYeKk1O3SmVeC5Y=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
@@ -10,17 +10,51 @@
     {
       "Name": "Blog\\wwwroot",
       "Source": "Blog",
-      "ContentRoot": "C:\\ASP.NET6\\Performace\\Blog\\wwwroot\\",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\ASP.NET6\\Performace\\Blog\\wwwroot\\Images\\698148d8-e7ef-4464-8afa-c1c79c8833c2",
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\02cb9417-edca-42e5-9dca-002f64e52789.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\ASP.NET6\\Performace\\Blog\\wwwroot\\",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "Images/02cb9417-edca-42e5-9dca-002f64e52789.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\02cb9417-edca-42e5-9dca-002f64e52789.jpg"
+    },
+    {
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\679f1fa5-a0e9-4f9e-b7a3-2d58cf2b293c.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "Images/679f1fa5-a0e9-4f9e-b7a3-2d58cf2b293c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\679f1fa5-a0e9-4f9e-b7a3-2d58cf2b293c.jpg"
+    },
+    {
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\698148d8-e7ef-4464-8afa-c1c79c8833c2",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "Images/698148d8-e7ef-4464-8afa-c1c79c8833c2",
       "AssetKind": "All",
@@ -34,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\698148d8-e7ef-4464-8afa-c1c79c8833c2"
     },
     {
-      "Identity": "C:\\ASP.NET6\\Performace\\Blog\\wwwroot\\Images\\712d505a-1609-42af-87a0-3e75bd38e197",
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\712d505a-1609-42af-87a0-3e75bd38e197",
       "SourceId": "Blog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\ASP.NET6\\Performace\\Blog\\wwwroot\\",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "Images/712d505a-1609-42af-87a0-3e75bd38e197",
       "AssetKind": "All",
@@ -51,10 +85,44 @@
       "OriginalItemSpec": "wwwroot\\Images\\712d505a-1609-42af-87a0-3e75bd38e197"
     },
     {
-      "Identity": "C:\\ASP.NET6\\Performace\\Blog\\wwwroot\\Images\\aef5c5ae-c0fc-4779-a682-ebd8f4cbebc9.jpg",
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\858bb30d-53c1-4615-abdb-301e756f35e3.jpg",
       "SourceId": "Blog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\ASP.NET6\\Performace\\Blog\\wwwroot\\",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "Images/858bb30d-53c1-4615-abdb-301e756f35e3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\858bb30d-53c1-4615-abdb-301e756f35e3.jpg"
+    },
+    {
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\aaebb5d8-27b1-427c-9105-301a7ec5c5a8.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "Images/aaebb5d8-27b1-427c-9105-301a7ec5c5a8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\aaebb5d8-27b1-427c-9105-301a7ec5c5a8.jpg"
+    },
+    {
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\aef5c5ae-c0fc-4779-a682-ebd8f4cbebc9.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
       "BasePath": "_content/Blog",
       "RelativePath": "Images/aef5c5ae-c0fc-4779-a682-ebd8f4cbebc9.jpg",
       "AssetKind": "All",
@@ -66,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\aef5c5ae-c0fc-4779-a682-ebd8f4cbebc9.jpg"
+    },
+    {
+      "Identity": "C:\\API\\Blog\\wwwroot\\Images\\de2848b4-a4c3-4a90-b791-afb12e8a8cb0.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\API\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "Images/de2848b4-a4c3-4a90-b791-afb12e8a8cb0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\de2848b4-a4c3-4a90-b791-afb12e8a8cb0.jpg"
     }
   ]
 }

@@ -49,7 +49,7 @@ namespace Blog.Controllers
             {
                 var category = await context.Categories.FirstOrDefaultAsync(x => x.Id == id);
                 if (category == null)
-                    return NotFound(new ResultViewModel<Category>("Usuario não encontrado"));
+                    return NotFound(new ResultViewModel<Category>("Categoria não encontrada"));
 
                 return Ok(new ResultViewModel<Category>(category));
             }
